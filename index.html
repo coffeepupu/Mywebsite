@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Links & Music Bots</title>
+    <style>
+        /* မျက်စိအေးစေမည့် အရောင်များ */
+        :root {
+            --bg-color: #f0f2f5;
+            --card-bg: #ffffff;
+            --text-color: #333;
+            --accent-color: #0088cc; /* Telegram Blue */
+            --sub-text: #666;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            margin: 0;
+        }
+
+        .profile-section {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-section h1 {
+            margin: 10px 0 5px 0;
+            font-size: 24px;
+        }
+
+        .profile-section p {
+            color: var(--sub-text);
+            font-size: 14px;
+        }
+
+        .links-container {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .link-card {
+            background: var(--card-bg);
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: var(--text-color);
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .link-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
+
+        .icon {
+            width: 40px;
+            height: 40px;
+            background: var(--bg-color);
+            border-radius: 10px;
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .info h3 {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .info p {
+            margin: 0;
+            font-size: 12px;
+            color: var(--sub-text);
+        }
+
+        .section-title {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--sub-text);
+            margin: 20px 0 10px 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-section">
+        <h1>ကိုယ့်နာမည် / Bot Name</h1>
+        <p>Welcome to my digital space ✨</p>
+    </div>
+
+    <div class="links-container">
+        
+        <div class="section-title">Music Bots</div>
+        
+        <a href="https://t.me/your_bot_1" class="link-card">
+            <div class="icon">🎵</div>
+            <div class="info">
+                <h3>Vibe Music Bot</h3>
+                <p>High quality music on Telegram</p>
+            </div>
+        </a>
+
+        <a href="https://t.me/your_bot_2" class="link-card">
+            <div class="icon">🎧</div>
+            <div class="info">
+                <h3>Chill Beats Bot</h3>
+                <p>24/7 Lo-fi Radio</p>
+            </div>
+        </a>
+
+        <div class="section-title">Channels & Groups</div>
+
+        <a href="https://t.me/your_channel" class="link-card">
+            <div class="icon">📢</div>
+            <div class="info">
+                <h3>Main Channel</h3>
+                <p>Update အသစ်တွေကြည့်ဖို့ Join ထားပါ</p>
+            </div>
+        </a>
+
+        <div class="section-title">Contact Me</div>
+
+        <a href="tel:+95912345678" class="link-card">
+            <div class="icon">📞</div>
+            <div class="info">
+                <h3>Phone Number</h3>
+                <p>+95 9 123 456 78</p>
+            </div>
+        </a>
+
+    </div>
+
+</body>
+</html>
